@@ -15,6 +15,13 @@
         android:textColor="@android:color/white"
         android:background="@drawable/button_background" />
 
+    <!-- Botão para exportar relatórios -->
+    <Button
+        android:id="@+id/buttonExport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exportar Relatório" />
+
     <!-- RecyclerView para exibir a lista resumida de encomendas -->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerViewOrders"
